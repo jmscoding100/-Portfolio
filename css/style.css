@@ -5,8 +5,8 @@
 
 
 :root{
-    --color1:rgb(17, 105, 152);
-    --color2:rgb(19, 149, 242);
+    --color1:#ACC8E5;
+    --color2:#112A46;
     --color3: rgb(71, 203, 255);
 }
 
@@ -14,11 +14,25 @@
 
 
 /* classes */
+.footer{
+    padding: 20px;
+}
 
 
+.name{
+    color: var(--color2);
+}
 
 
 /* ids */
+
+
+
+#footer{
+    background-color: var(--color1);
+}
+
+
 
 #header{
     background-color: var(--color1);
