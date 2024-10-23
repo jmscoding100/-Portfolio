@@ -14,8 +14,43 @@
 
 
 /* classes */
+
+
+.an-i{
+    color: #aaa;
+}
+
+.an-i:hover{
+    color: white;
+}
+
+
+
+
+.code:hover{
+    color: purple;
+}
+
+
 .footer{
     padding: 20px;
+}
+
+
+.h2-me{
+    color: var(--color3);
+    border-bottom: 4px solid var(--color1);
+}
+
+
+.h2-pro{
+    color: var(--color3);
+    border-bottom: 4px solid var(--color1);
+    padding-top: 10px;
+}
+
+.live:hover{
+color: purple;
 }
 
 
@@ -24,8 +59,18 @@
 }
 
 
-/* ids */
+.website{
+    text-decoration: none;
+}
 
+/* ids */
+#back{
+    color: purple;
+}
+
+#back:hover{
+    color: white;
+}
 
 
 #footer{
@@ -36,4 +81,9 @@
 
 #header{
     background-color: var(--color1);
+}
+
+
+#section2{
+    padding-bottom: 40px;
 }
