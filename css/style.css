@@ -26,7 +26,6 @@
 
 
 
-
 .code:hover{
     color: purple;
 }
@@ -63,7 +62,20 @@ color: purple;
     text-decoration: none;
 }
 
+
+.hobbies{
+    padding-top: 20px;
+}
+
 /* ids */
+
+
+#about{
+    font-size: calc(12px + (20 - 12) * ((100vw - 300px) / (1600 - 300)));
+}
+
+
+
 #back{
     color: purple;
 }
